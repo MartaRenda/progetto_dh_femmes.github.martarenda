@@ -1,5 +1,5 @@
 # progetto_dh_femmes.github.martarenda
-##Il progetto
+Il progetto
 Femmes: figure femminili nel mondo di Madeleine de Scudéry è un progetto ideato per la prova finale del corso di Digital Humanities dell'Università di Bologna.
 
   Tenendo conto della generosa presenza di personaggi femminili all'interno delle diverse opere della scrittrice francese Madeleine de Scudéry, il progetto si propone come uno strumento per far emergere queste figure a partire dal corpus dell'autrice al fine di rendere più fruibile la loro esistenza, la loro storia e la loro ricorrenza a studiosə, lettorə e appassionatə. All'interno della lista degli oggetti raccolti, tuttavia, verrà dato anche spazio alla presenza dei personaggi femminili realmente esistiti con i quali Madeleine de Scudéry è entrata in relazione nel corso della sua vita, per far emergere il fermento dei circoli letterari del XVII secol
