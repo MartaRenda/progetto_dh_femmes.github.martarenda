@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>
+					 Artamène, ou Le grand Cyrus. 10 / Madeleine de Scudéry
+				</title>
+				<author>
+					Scudéry, Madeleine de (1607-1701). Auteur du texte
+				</author>
+				<respStmt>
+				  <resp>numerisation par</resp>
+				  <name>Claude Bourqui et Alexandre Gefen</name>
+				 </respStmt>
+				 <respStmt>
+ 				 <resp>conversion dans un TEI-conformant markup</resp>
+ 				  <name>Marta Renda</name>
+ 				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<date>
+						1656
+					</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<distributor>Projet Cyrus</distributor>
+				<address>
+				<addrLine>Université de Neuchâtel, Avenue du 1er mars, 26, Neuchâtel, 2000, CH</addrLine>
+				</address>
+
+			</publicationStmt>
+			<notesStmt>
+				<note>
+					<p> Le texte numérisé est celui de la deuxième édition, réputé identique à l'édition originale. </p>
+					<p> Seule diffère la pagination. La présentation des volumes se distingue par une typographie différente (qui permet la réduction de plusieurs milliers de pages) et par l'absence de gravures autres que les frontispices de chaque volume. </p>
+				</note>
+			</notesStmt>
+			<sourceDesc>
+					<biblStruct xml:lang="fr">
+					  <monogr>
+					   <author>Scudéry, Madeleine de (1607-1701)</author>
+					   <title>Artamène ou le grand Cyrus, Dixième partie</title>
+					   <title type="sub">Dédié à Madame la duchesse de Longueville</title>
+					   <imprint>
+					    <pubPlace>Paris</pubPlace>
+					    <publisher>Augustin Courbé</publisher>
+					    <date when="1656">1656</date>
+					   </imprint>
+					  </monogr>
+					 </biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xmlns="http://www.tei-c.org/ns/1.0">
+		<body>
+			<!--Estratto da L'histoire de Sapho-->
+			<div1 type="volume" n="10">
+			<head>Volume 10</head>
+			<!-- ... -->
+			<div2 type="episode" n="45">
+			<head>Histoire de Sapho</head>
+					<p> HISTOIRE DE SAPHO. </p>
+					<p>Comme il est assez naturel d'aimer à loüer toutes les choses où l'on prend quelque interest, je ne sçay <rs type="person">Madame</rs>, si en vous loüant l'admirable <name type="person">Sapho</name>, je ne vous loüeray pas aussi sa Patrie, qui est la mienne : et si pour vous faire remarquer tous les avantages de sa naissance, je ne vous aprendray pas qu'elle est née en un des 
+					</p>
+							<pb id="page_6901" n="V10-P329"/>
+					<p>
+					plus aimables lieux de la Terre. En effet <rs type="person">Madame</rs>, l'<name type="place">Isle de Lesbos</name> est si agreable, et si fertile, que la <name type="place">Mer Egée</name> n'en a presques point de plus belle : car enfin cette <name type="place">Isle</name> est assez grande, pour faire qu'on puisse se persuader aisément en divers endroits, qu'on est en Terre ferme : mais elle n'est pas aussi de celles qui sont si montueuses, qu'elles semblent n'estre qu'un grand amas de Rochers au milieu de la Mer : et elle n'est pas non plus de ces autres <name type="place">Isles</name>, qui n'ayant aucune eminence en toute leur estenduë, semblent estre tousjours exposées à estre englouties par les vagues qui les environnent. Au contraire l'<name type="place">Isle de Lesbos</name> a en son Terroir, toutes les diversitez qu'on peut voir en de grands Royaumes qui ne sont point Isles : car du costé de l'Orient, elle a des Montagnes, et de grands Bois : et du costé opposé, elle a des Prairies, et des Plaines. L'air y est pur, et sain ; la bonté de la Terre y produit l'abondance ; le commerce y est grand ; et la Terre ferme en est si proche du costé de la <name type="place">Phrigie</name>, qu'en deux heures on passe quand on le veut en une Cour estrangere. De plus, <name type="place">Mytilene</name> qui en est la principale <name type="place">Ville</name>, est si bien bastie, et elle a deux Ports si beaux, que tous les Estrangers qui y viennent l'admirent, et en trouvent le sejour fort agreable. Voila donc <rs type="person">Madame</rs>, quel est le lieu de la naissance de <name type="person">Sapho</name> : mais par où il est encore le plus agreable, c'est que le sage <name type="person">Pittacus</name> en est Prince : et que cela y a attiré un nombre infiny d'honnestes Gens. Il avoit mesme aussi un Fils 
+					</p>
+					<pb id="page_6902" n="V10-P330"/>
+					<p>
+					apellé <name type="person">Tisandre</name>, qui estoit un aussi honneste homme qu'il y en eust au Monde, qui contribuoit encore à rendre le sejour de<name type="place">Mytilene</name> fort divertissant : neantmoins comme il y a desja assez long temps qu'il est mort, je ne m'arresteray pas beaucoup à parler de luy, quoy qu'il ait esté un des Amants de <name type="person">Sapho</name>. Mais<rs type="person"> Madame</rs>, apres vous avoir dit le lieu de la naissance de cette merveilleuse Personne, il faut que je vous die quelque chose de sa condition : elle est donc Fille d'un homme de qualité apellé <name type="person">Scamandrogine</name>, qui estoit d'un Sang si noble qu'il n'y avoit point de Famille à <name type="place">Mytilene</name> où l'on pûst voir une plus longue suite d'Ayeuls, ny une Genealogie plus illustre, ny moins douteuse. De plus, <name type="person">Sapho</name> a encore eu l'avantage que son Pere et sa Mere avoient tous deux beaucoup d'esprit, et beaucoup de vertu : mais elle eut le malheur de les perdre de si bonne heure, qu'elle ne pût recevoir d'eux que les premieres inclinations au bien : car elle n'avoit que six ans lors qu'ils moururent. Il est vray qu'ils la laisserent sous la conduite d'une Parente qu'elle avoit, apellée <name type="person">Cynegire</name>, qui avoit toutes les qualitez necessaires pour bien eslever une jeune Personne : et ils la laisserent avec un bien beaucoup au dessous de son merite : mais pourtant assez considerable pour n'avoir non seulement besoin de personne, mais pour pouvoir mesme paroistre avec assez d'esclat dans le monde. <name type="person">Sapho</name> a pourtant un Frere nommé <name type="person">Charaxe</name>, qui estoit alors extrémement riche : 
+					</p>
+					<pb id="page_6903" n="V10-P331"/>
+					<p>car <name type="person">Scamandrogine</name> en mourant avoit partagé son Bien fort inesgalement : et en avoit beaucoup plus laissé à son Fils qu'à sa Fille, quoy qu'à dire la verité il ne le meritast pas, et qu'elle fust digne de porter une Couronne. En effet <rs type="person">Madame</rs>, je ne pense pas que toute la <name type="place">Grece </name> jamais une Personne qu'on puisse comparer à <name type="person">Sapho</name> : je ne m'arresteray pourtant point <rs type="person">Madame</rs>, à vous dire quelle fut son Enfance : car elle fut si peu Enfant, qu'à douze ans on commença de parler d'elle comme d'une Personne dont la beauté, l'esprit, et le jugement, estoient desja formez, et donnoient de l'admiration à tout le monde : mais je vous diray seulement qu'on n'a jamais remarqué en qui que ce soit, des inclinations plus nobles, ny une facilité plus grande à aprendre tout ce qu'elle a voulu sçavoir. Cependant quoy que <name type="person">Sapho</name> ait esté charmante dés le Berçeau, je ne veux vous faire la Peinture de sa Personne, et de son esprit, qu'en l'estat qu'elle est presentement, afin que vous la connoissiez mieux. Je vous diray donc <rs type="person">Madame</rs>, qu'encore que vous m'entendiez parler de <name type="person">Sapho</name> comme de la plus merveilleuse, et de la plus charmante Personne de toute la <name type="place">Grece</name>; il ne faut pourtant pas vous imaginer que sa beauté soit une de ces grandes beautez, en qui l'Envie mesme ne sçauroit trouver aucun deffaut : mais il faut neantmoins que vous compreniez, qu'encore que la sienne ne soit pas de celles que je dis, elle est pourtant capable d'inspirer de plus grandes passions, que les plus 
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
