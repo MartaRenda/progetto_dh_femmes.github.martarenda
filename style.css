@@ -6,7 +6,7 @@
 $enable-responsive-font-sizes
 
 /* html */
-/* se impostate -webkit-font-smoothing: antialiased; i font appariranno più */
+
 html {scroll-behavior: smooth; -webkit-font-smoothing: antialiased;}
 
 /*body*/
@@ -31,6 +31,8 @@ body {background-color: #483D8B;
 	color: white;
 
 }
+a {background-color: #483D8B;
+	color: white;}
 /*footer*/
 footer {
   background-color: #483D8B;
