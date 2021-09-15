@@ -1,0 +1,314 @@
+<!DOCTYPE html> <!-- necessario anche per motivi legali -->
+<html lang="it">
+<!-- head -->
+
+<head>
+    <!-- charset -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="Femmes: personaggi femminili nel mondo di Madeleine de Scudéry">
+    <meta name="DC.Creator" content="Marta Renda">
+    <meta name="DC.Subject" content="Personaggi femminili nel mondo di Madeleine de Scudéry">
+    <meta name="DC.Description" content="Femmes: figure femminili nel mondo di Madeleine de Scudéry è un progetto ideato per la prova finale del corso di Digital Humanities dell'Università di Bologna. Tenendo conto della generosa presenza di personaggi femminili all'interno delle diverse opere della scrittrice francese Madeleine de Scudéry, il progetto si propone come uno strumento per far emergere queste figure a partire dal corpus dell'autrice al fine di rendere più fruibile la loro esistenza, la loro storia ">
+    <meta name="DC.Publisher"
+        content="Inserisci un riferimento all'ente che si occupa della pubblicazione del tuo sito web">
+    <meta name="DC.Contributor"
+        content="Marta Renda">
+    <meta name="DC.Date" content="16/09/2021">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://www.progetto_dh_femmes.github.martarenda">
+    <meta name="DC.Source" content="https://gallica.bnf.fr/, https://www.europeana.eu/it, https://it.wikipedia.org/">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation"
+        content="https://gallica.bnf.fr/ark:/12148/bpt6k7915d/f7.item">
+    <link rel="DC.Coverage"
+        href="http://www.geonames.org/6452876/bibliotheque-nationale-de-france.html">
+    <meta name="DC.Rights"
+        content="https://creativecommons.org/licenses/by/4.0/">
+    <!-- il titolo del sito riportato all'interno del tag title compare nella finestra del browser -->
+    <title>Femmes:figure femminili nel mondo di Madeleine di Scudéry</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="
+    sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!--font di google che ho scelto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color: #ccccff">
+    <!-- header -->
+    <header>
+        <!-- bootstrap navbar -->
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" style="width:25%; ">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><p class="font-weight-bold"><h5><em><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eyeglasses" viewBox="0 0 16 16">
+              <path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A1.993 1.993 0 0 0 8 6c-.532 0-1.016.208-1.375.547zM14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+            </svg>Femmes</em></h5></p></a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                     <li class="nav-item">
+                         <a class="nav-link" href="index.html" rel="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Introduzione" href="#">Introduzione</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            title="Catalogo">Catalogo</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="lista.html" title="Lista">Lista</a>
+                            <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#" title="Opere">Opere</a>
+                            <a class="dropdown-item" href="#" title="Temi">Temi</a>
+                            <a class="dropdown-item" href="#" title="Persone">Figure femminili</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#Bibliografia">Bibliografia</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#"></a>
+                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                 </form>
+              </div>
+        </nav>
+    </header>
+
+<main class="background-gray pb-5 pt-5">
+        <!-- items -->
+    <section class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-light text-center"><span class="text-black-50">Artamène ou le Grand Cyrus, X libro</span> De Scudéry, Madeleine</h2>
+                </div>
+            </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12 mt-4">
+                <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Home</a>
+                <a href="lista.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Lista</a> 
+            </div>
+        
+                <div class="col-md-8 col-sm-8 col-xs-12 mt-4"> 
+                </div>
+        </div>           
+
+<!--section-->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+             <!-- sidebar a sinistra -->
+                <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+                    <aside>
+                        
+                        <!-- licenza -->
+                        <div class="share">
+                            <a href="http://creativecommons.org/licenses/by/4.0/" class="btn btn-light" target="_blank"
+                                title="Licenza Creative Commons CC BY 4.0">
+                                <img alt="Creative Commons License" style="border-width:0; width: 60px;"
+                                    src="https://i.creativecommons.org/l/by/4.0/88x31.png" /> Licenza</a>
+                        </div>
+                        <!-- condividi -->
+                        <div class="share mt-4">
+                            <button type="button" class="btn btn-light"><i class="bi bi-share-fill"></i>
+                                Condividi</button>
+                        </div>
+                        <!-- download immagini -->
+                        <div class="share mt-4">
+                            <div class="dropdown dropright">
+                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="bi bi-download"></i> Testo
+                                </button>
+                                <div class="dropdown-menu p-3" aria-labelledby="dropdownMenuButton">
+                                    <div class="mb-2">
+                                        <p class="info">Scarica il pdf da <div style="display: block; "><iframe style="width:500px; height: 554.8919753086419px; border: 0;" src="https://gallica.bnf.fr/ark:/12148/bpt6k7915d/f7.image.mini"></iframe></div></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- download XML/TEI -->
+                        <div class="share mt-4">
+                            <button type="button" class="btn btn-light"><i class="bi bi-code-square"></i>
+                                <a class="nav-link" href="TEI_item_Artamène_ou_Le_Grand_Cyrus.10.xml"> XML/TEI</a></button>
+                        </div>
+                        <!-- download XML/DC -->
+                        <div class="share mt-4">
+                            <button type="button" class="btn btn-light"><i class="bi bi-code-square"></i>
+                                <a class="nav-link" href="item_Artamène_ou_Le_Grand_Cyrus.10_dc(1).xml">XML/DC</a></button>
+                        </div>
+                    </aside>
+                </div>
+        <div class="col-md-8 col-sm-8 col-xs-12 mt-4">
+                    <div id="intro">
+                    <h1 style="background-color: white">Artamène, ou Le grand Cyrus.10, Madeleine de Scudéry</h1>
+                    <br>
+                    </div>
+           <!-- Paragrafo P con una serie di elementi intertestuali fra cui SPAN con attributo CLASS + TITLE, STRONG, EM, BR/ -->
+                    <p id="images"><a href="images/Artamenegrande.png" title="Apre l'immagine in dimensione superiore" target="_blank"><img src="images/Artamène_ou_Le_grand_Cyrus_[...]Scudéry_Madeleine_bpt6k7915d_7.jpg" alt="Immagine frontespizio Artamène ou le Grand Cyrus, 10/ Madeleine de Scudéry" style="float: left;" /></a>
+                    <p id="descrizione"> Decimo e ultimo volume di <span class="opere" title="opera">Artamène ou Le Grand Cyrus</span>, scritto da <span class="persone" title="persona">Madeleine de Scudéry</span>, <span class="date" title="data">1656</span>.
+                     All'interno di questa parte è contenuta la celebre <em>Histoire de Sapho</em>,che racconta la vita e gli <span class="temi" title="tema">amori</span> della <span class="persone" title="persona">celebre poetessa di Lesbo</span>.  <span class="persone" title="persona">Madeleine de Scudéry</span> si rivedeva in questa figura e il suo soprannome letterario era <span class="persone" title="persona"><em>Sapho</em> (Saffo)</span>, appunto. </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    </p>
+                </div>   
+            <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+                <aside>
+                    <div class="card" style="width: 18rem;">
+                        <p>Scopri di più sull'autrice</p>
+                      <img src="images/MadeleinedeScudéry.jpg" class="card-img-top" alt="Madeleine de Scudéry">
+                      <div class="card-body">
+                        <p class="card-text">Madeleine de Scudéry</p>
+                        <a href="persona.html" class="btn btn-primary">Metadati</a>
+                      </div>
+                    </div>
+                    
+                </aside>  
+            </div>
+
+
+
+        </div>
+    </div>
+         
+</section> 
+<!--nuova section per metadati e nuova row-->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <!--prima col-->
+            <div class="col-2">      
+            </div>
+            <!--seconda col-->
+            <!--provo a mettere i metadati-->
+            <div class="col-8">
+
+                <div class="card-body">
+                                <p class="card-text"><span>Titolo:</span> <b>Artamène, ou Le grand Cyrus. 10 / Madeleine de Scudéry</b></p>
+                                <hr>
+                                <p class="card-text"><span>Creatore:</span> <b><a href=" http://viaf.org/viaf/312494982"
+                                            target="_blank" title="Identificativo VIAF de Scudéry, Madeleine de">Scudéry, Madeleine de (1607-1701). Auteur du texte<sup>VIAF</sup></a></b>
+                                    <a href="persona.html" class="btn btn-light float-right"
+                                        title="Vai alla pagina di Madeleine de Scudéry nella sezione Persone">Vedi in
+                                        Persone</a>
+                                </p>
+                                <hr>
+                                <p class="card-text"><span>Data:</span> <b><a href="#" title="1656">1656</a></b> <button
+                                        type="button" class="btn btn-light float-right">Vedi in Date</button>
+                                </p>
+                                <hr>
+                                <p class="card-text"><span>Tipo di oggetto:</span> <b><a href=# target="_blank" title="Testo">Testo</a></b><button type="button" class="btn btn-light float-right">Vedi in Media</button>
+
+                                <hr>
+                                <p class="card-text"><span>Formato:</span> <b>10 vol.-[9] pl. en front. ; 18 cm</b></p>
+                                <hr>
+                                <p class="card-text"><span>Edizione:</span> <b>Riprod. in fac-sim</b></p>
+                                <hr>
+                                <p class="card-text"><span>Pubblicazione:</span> <b>Genève : Slatkine ; [Paris] : [diffusion Champion], 1972</b></p>
+                                <hr>
+                                <p class="card-text"><span>Riproduzione:</span> <b>Fac-sim. de l'éd. de : Leyden ; Paris : A. Courbé, 1656</b></p>
+                                <p class="card-text"><span>Codice identificativo:</span> <b>ark:/12148/bpt6k7915d</b></p>
+                                <hr>
+                                <p class="card-text"><span>Istituzione fornitrice:</span> <b><a
+                                            href="https://catalogue.bnf.fr/ark:/12148/cb35218279c"
+                                            target="_blank"
+                                            title="Pagina del catalogo generale della BnF">Bibliothèque Nationale de France<sup>Wikipedia</sup></a></b>
+                                </p>
+                                <hr>
+                                <hr>
+                                <p class="card-text"><span>Posizione attuale:</span> <b><a
+                                            href="http://www.geonames.org/6452876/bibliotheque-nationale-de-france.html" target="_blank"
+                                            title="Bibliothèque Nationale de France">Bibliothèque Nationale de France<sup>GeoNames</sup></a>
+                                </p>
+                                <hr>
+                                <p class="card-text">Tema:</p>
+                                <!-- tag -->
+                                <div>
+                                    <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-tag-fill"></i>
+                                        Opera letteraria</button>
+                                    <button type="button" class="btn btn-secondary btn-sm"><i
+                                            class="bi bi-tag-fill"></i>
+                                        Romanzo</button>
+                                    <button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag-fill"></i>
+                                        XVII secolo</button>
+                                    <button type="button" class="btn btn-info btn-sm"><i class="bi bi-tag-fill"></i>
+                                        Scrittrici</button>
+                                </div>
+                                <hr>
+                               
+            </div>
+            
+        </div>
+<!--terza colonna-->
+         <div class="col-2">
+                <aside>
+                    <div class="card" style="width: 18rem;">
+                        <p>Scopri di più sul personaggio</p>
+                      <img src="images/Saffo.jpeg" class="card-img-top" alt="Saffo">
+                      <div class="card-body">
+                        <p class="card-text">Sapho (Saffo)</p>
+                        <a href="persona.html" class="btn btn-primary">Metadati</a>
+                      </div>
+                    </div>
+                    
+                </aside>  
+                
+            </div>
+        
+    </div>
+    
+</section>
+    
+</main>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+<footer>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                     <p id="copy" class="text-centered"><!-- Riferimento all'entità carattere &name; --> &copy; Marta Renda, 2021</p>
+                    <p id="footer" class="text-centered"> Progetto realizzato per l'esame di Digital Humanities e Patrimonio Culturale, Università di Bologna</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

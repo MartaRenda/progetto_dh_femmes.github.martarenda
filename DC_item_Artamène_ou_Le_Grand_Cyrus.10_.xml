@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2021-09-15T12:49:51Z</responseDate>
+<request>http://catoai.bnf.fr/oai2/OAIHandler</request>
+<error code="badVerb">Illegal verb</error>
+<library xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id= "Gallica.bnf">
+<item n="12148" xml:id="ark:/12148/bpt6k7915d">
+<dc:title>Artamène, ou Le grand Cyrus. 10 / Madeleine de Scudéry</dc:title>
+<dc:creator>Scudéry, Madeleine de (1607-1701). Auteur du texte</dc:creator>
+<dc:subject xml:lang= "fre">Femmes et littérature</dc:subject>
+<dc:description>
+<img source="images/Artamène_ou_Le_grand_Cyrus_[...]Scudéry_Madeleine_bpt6k7915d_7.jpg"/>
+Decimo e ultimo volume di 
+<work>Artamène ou Le Grand Cyrus</work>
+, scritto da 
+<person>Madeleine de Scudéry</person>, 
+<date>1656</date>.
+ All'interno di questa parte è contenuta la celebre 
+ <q>Histoire de Sapho</q>
+ ,che racconta la vita e gli 
+ <theme>amori</theme> della 
+ <person>celebre poetessa di Lesbo</person>.  
+ <person>Madeleine de Scudéry</person> 
+ si rivedeva in questa figura e il suo soprannome letterario era
+<person>Sapho (Saffo)</person>, appunto.
+</dc:description>
+<dc:publisher>Slatkine (Genève)</dc:publisher>
+<dc:publisher>[diffusion Champion] (Paris)</dc:publisher>
+<dc:contributor>Scudéry, Madeleine de (1607-1701). Auteur du texte</dc:contributor> 
+<dc:date>1656</dc:date>
+<dc:type xml:lang="eng">text</dc:type>
+<dc:type xml:lang="fre">texte imprimé</dc:type> 
+<dc:format>application/pdf</dc:format> 
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/bpt6k7915d</dc:identifier>
+<dc:source>Bibliothèque nationale de France, Grente, 17e s. (sous : Scudéry, Georges et Madeleine de) : forme retenue</dc:source> 
+<dc:language>fra</dc:language>
+<dc:relation>Notice du catalogue :
+https://catalogue.bnf.fr/ark:/12148/cb11959811x</dc:relation>
+<dc:coverage>http://www.geonames.org/6452876/bibliotheque-nationale-de-france.html</dc:coverage> 
+<dc:rights xml:lang= "fre">domaine public, Source gallica.bnf.fr / Bibliothèque nationale de France</dc:rights>
+<dc:rights xml:lang="eng">public domain</dc:rights>
+</item>
+</library>
+</OAI-PMH>

@@ -1,0 +1,346 @@
+<!DOCTYPE html> <!-- necessario anche per motivi legali -->
+<html lang="it">
+<!-- head -->
+
+<head>
+    <!-- charset -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="Femmes: personaggi femminili nel mondo di Madeleine de Scudéry">
+    <meta name="DC.Creator" content="Marta Renda">
+    <meta name="DC.Subject" content="Personaggi femminili nel mondo di Madeleine de Scudéry">
+    <meta name="DC.Description" content="Femmes: figure femminili nel mondo di Madeleine de Scudéry è un progetto ideato per la prova finale del corso di Digital Humanities dell'Università di Bologna. Tenendo conto della generosa presenza di personaggi femminili all'interno delle diverse opere della scrittrice francese Madeleine de Scudéry, il progetto si propone come uno strumento per far emergere queste figure a partire dal corpus dell'autrice al fine di rendere più fruibile la loro esistenza, la loro storia ">
+    <meta name="DC.Publisher"
+        content="Inserisci un riferimento all'ente che si occupa della pubblicazione del tuo sito web">
+    <meta name="DC.Contributor"
+        content="Marta Renda">
+    <meta name="DC.Date" content="16/09/2021">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://www.progetto_dh_femmes.github.martarenda">
+    <meta name="DC.Source" content="https://gallica.bnf.fr/, https://www.europeana.eu/it, https://it.wikipedia.org/">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation"
+        content="https://gallica.bnf.fr/ark:/12148/bpt6k7915d/f7.item">
+    <link rel="DC.Coverage"
+        href="http://www.geonames.org/6452876/bibliotheque-nationale-de-france.html">
+    <meta name="DC.Rights"
+        content="https://creativecommons.org/licenses/by/4.0/">
+    <!-- il titolo del sito riportato all'interno del tag title compare nella finestra del browser -->
+    <title>Femmes:figure femminili nel mondo di Madeleine di Scudéry</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="
+    sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!--font di google che ho scelto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color: #ccccff">
+    <!-- header -->
+    <header>
+        <!-- bootstrap navbar -->
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><p class="font-weight-bold"><h5><em><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eyeglasses" viewBox="0 0 16 16">
+              <path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A1.993 1.993 0 0 0 8 6c-.532 0-1.016.208-1.375.547zM14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+            </svg>Femmes</em></h5></p></a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                     <li class="nav-item">
+                         <a class="nav-link" href="index.html" rel="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Introduzione" href="#">Introduzione</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            title="Catalogo">Catalogo</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="lista.html" title="Lista">Lista</a>
+                            <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#" title="Opere">Opere</a>
+                            <a class="dropdown-item" href="#" title="Temi">Temi</a>
+                            <a class="dropdown-item" href="#" title="Persone">Figure femminili</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#Bibliografia">Bibliografia</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#"></a>
+                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                 </form>
+              </div>
+        </nav>
+    </header>
+
+<main class="background-gray pb-5 pt-5">
+        <!-- items -->
+    <section class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-light text-center"><span class="text-black-50">Catalogo</span> Lista</h2>
+                </div>
+            </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Home</a>Lista   
+            </div>
+            <div class="col-6">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                       <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav> 
+            </div>
+                
+        </div>
+    </section>
+    <!--fine section-->
+    <section>
+        <!--ho provato a mettere tutto inseieme buttons->
+            <!-classi col-sm e col-xs rispettivamente per small devices (tablet) e extrasmall devices (mobile) -->
+                <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+                    <aside>
+                        <!-- ordina la lista -->
+                        <div class="checkbox-container">
+                            <h3 class="mb-0">Riordina la lista:</h3>
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-outline-secondary active mt-1">
+                                    <input type="radio" checked> A-Z
+                                </label>
+                                <label class="btn btn-outline-secondary mt-1">
+                                    <input type="radio"> Z-A
+                                </label>
+                                <label class="btn btn-outline-secondary mt-1">
+                                    <input type="radio"> Ordine cronologico
+                                </label>
+                            </div>
+                        </div>
+                        <!-- filtra la lista -->
+                        <div class="checkbox-container mt-4">
+                            <h3 class="mb-0">Filtra la lista:</h3>
+                            <!-- dropdown menu -->
+                            <div class="dropdown dropright mt-1">
+                                <button class="btn btn-primary btn-primary dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Opere
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                  <div class="btn-group-toggle" data-toggle="buttons">
+                                      <label class="btn active">
+                                        <input type="checkbox">Almahide, ou l'esclave reyne</label><br>
+                                        <input type="checkbox">
+                                        <label>Artamène ou le Grand Cyrus</label><br>
+                                        <input type="checkbox">
+                                        <label>Célinte</label><br>
+                                        <input type="checkbox">
+                                        <label>Clélie ou l'Histoire Romaine</label><br>
+                                        <input type="checkbox">
+                                        <label>Conversations nouvelles sur divers sujets</label><br>
+                                        <input type="checkbox">
+                                        <label> Discours de la gloire </label><br>
+                                        <input type="checkbox">
+                                        <label>Entretiens de morale </label><br>
+                                        <input type="checkbox">
+                                        <label> Ibrahim, ou l'Illustre Bassa</label><br>
+                                        <input type="checkbox">
+                                        <label>La promenade de Versailles</label><br>
+                                        <input type="checkbox">
+                                        <label>Les Femmes illustres, ou les Harangues héroïques</label><br>
+                                        <input type="checkbox">
+                                        <label>Mathilde</label><br>
+                                        <button type="button" class="btn btn-primary mt-2">Filtra</button>
+                                    </div>
+                                </div>
+                            <div class="dropdown dropright mt-1">
+                                <button class="btn btn-primary btn-blue dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Personaggi
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <input type="checkbox">
+                                    <label>Almahide</label><br>
+                                    <input type="checkbox">
+                                    <label>Clélie</label><br>
+                                    <input type="checkbox">
+                                    <label>Érinne</label><br>
+                                    <input type="checkbox">
+                                    <label>Mathilde</label><br>
+                                    <input type="checkbox">
+                                    <label>Sapho</label><br>
+                                    <input type="checkbox">
+                                    <input type="checkbox">
+                                    <label>...</label><br>
+                                    <button type="button" class="btn btn-blue mt-2">Filtra</button>
+                                </div>
+                            </div>
+                            <div class="dropdown dropright mt-1">
+                                <button class="btn btn-primary btn-info dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Temi
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <input type="checkbox">
+                                    <label>Storie d'amore</label>
+                                    <input type="checkbox">
+                                    <label>Educazione femminile</label><br>
+                                    <input type="checkbox">
+                                    <label>Matrimonio</label><br>
+                                    <input type="checkbox">
+                                    <label>Eroine</label><br>
+                                    <input type="checkbox">
+                                    <label>...</label><br>
+                                    <button type="button" class="btn btn-blue mt-2">Filtra</button>
+                                </div>
+                            </div>
+                            <!--qui inserisco altro dropdown che mi serve-->
+                            <div class="dropdown dropright mt-1">
+                                <button class="btn btn-primary btn-info dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Media
+                                </button>
+                             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <div class="btn-group-toggle" data-toggle="buttons">
+                                  <label class="btn active"><input type="checkbox">Testo</label><br>
+                                    <input type="checkbox">
+                                    <label>Immagine</label><br>
+                                    <input type="checkbox">
+                                    <label>Video</label><br>
+                                    <input type="checkbox">
+                                    <label>Audio</label><br>
+                                    <input type="checkbox">
+                                    <label>...</label><br>
+                                    <button type="button" class="btn btn-blue mt-2">Filtra</button>
+                                </div>
+                        </div>
+                    </aside>
+                </div>
+                <!-- items -->
+                 <div class="col-md-9 col-sm-9 col-xs-12">
+                    <!-- COLONNE INNESTATE: ripeti all'interno di un div con classe col-*-* un div con classe row e innesta al suo interno nuovi div con classe col-*-* -->
+                    <!-- tab -->
+<section>
+                <div class="row row-cols-1 row-cols-md-2" style="">
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="images/ScuderyArtamene.jpg" class="card-img-top" alt="Frontespizio decimo libro Artamene ou Le grand Cyrus" />
+                          <div class="card-body">
+                            <h5 class="card-title">Artamène ou le Grand Cyrus, dixième partie, 1654</h5>
+                            <a href="item.html" class="btn btn-primary">Metadati</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-4">
+                        <div class="card">
+                           <img src="images/256px-Carte_du_tendre.jpg" class="card-img-top" alt="Carte du Tendre">
+                          <div class="card-body">
+                            <h5 class="card-title">La Carte de Tendre</h5>
+                            <a href="#" class="btn btn-primary">Metadati</a>
+                          </div>
+                        </div>
+                    </div>
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="images/Saffo.jpeg" class="card-img-top" alt="Ritratto di Saffo">
+                          <div class="card-body">
+                             <h5 class="card-title">Saffo, poetessa</h5>
+                            <a href="#" class="btn btn-primary">Metadati</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="images/478px-Georges_de_Scudéry_entrant_au_cercle_de_sa_sœur.jpg" class="card-img-top" alt="George de Scudéry entrant au cercle de sa soeur, «Gérard» d’après Henri Pottins">
+                          <div class="card-body">
+                             <h5 class="card-title">George de Scudéry entrant au cercle de sa soeur, H. Pottin</h5>
+                            <a href="#" class="btn btn-primary">Metadati</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+<!--ultima parte prova-->
+                <div class="row row-cols-1 row-cols-md-2">
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="images/La promenade.jpg" class="card-img-top" alt="La promenade de Versailles, illustrazione">
+                          <div class="card-body">
+                            <h5 class="card-title">La promenade de Versailles,illustrazione</h5>
+                            <a href="#" class="btn btn-primary">Metadati</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-4">
+                        <div class="card">
+                           <img src="images/256px-ScuderyClelie.jpg" class="card-img-top" alt="Clelie, Histoire Romaine.">
+                          <div class="card-body">
+                            <h5 class="card-title">Clélie, histoire romaine dédiée à Mademoiselle de Longueville</h5>
+                            <a href="#" class="btn btn-primary">Metadati</a>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+             
+</section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <footer>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                     <p id="copy" class="text-centered"><!-- Riferimento all'entità carattere &name; --> &copy; Marta Renda, 2021</p>
+                    <p id="footer" class="text-centered"> Progetto realizzato per l'esame di Digital Humanities e Patrimonio Culturale, Università di Bologna</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    </footer>
+
+
+</body>
+</html>
