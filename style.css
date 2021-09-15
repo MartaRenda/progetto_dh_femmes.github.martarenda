@@ -11,7 +11,8 @@ html {scroll-behavior: smooth; -webkit-font-smoothing: antialiased;}
 
 /*body*/
 body {background-color: #483D8B;
-		font-family: Raleway;
+	font-family: Raleway;
+	color: white
 }
 
 header {
@@ -26,12 +27,8 @@ header {
 			font-family: Raleway, cursive;
 			font-size:1.5em;
 		}
-/*body*/
-body {background-color: #483D8B;
-	color: white;
 
-}
-a {color: white;}
+
 /*footer*/
 footer {
   background-color: #483D8B;
