@@ -1,0 +1,91 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,300;1,400&display=swap');
+$enable-responsive-font-sizes
+
+/* html */
+/* se impostate -webkit-font-smoothing: antialiased; i font appariranno più */
+html {scroll-behavior: smooth; -webkit-font-smoothing: antialiased;}
+
+/*body*/
+body {background-color: #483D8B;
+		font-family: Raleway;
+}
+
+header {
+		background-color: #ccccff;
+		color: black;
+		text-align: center;
+}
+#intro h1 {
+			font-family: Raleway, cursive; font-size: 2em;
+		}
+#intro h2 {
+			font-family: Raleway, cursive;
+			font-size:1.5em;
+		}
+/*body*/
+body {background-color: #483D8B;
+
+}
+/*footer*/
+footer {
+  background-color: #483D8B;
+  width: 100%;
+   height:auto;
+  color: white;
+  font-size: 1.5em;
+  clear: both;
+
+}
+/*paragrafo*/
+#paragrafo {text-align: center;
+	        font-size: 100%;
+
+}
+.persone {font-size: 150%;
+	      color: white;
+
+}
+.temi {background-color: white;
+
+}
+.date{font-size: 150%;
+	      color: white;
+
+}
+/* carousel */
+.carousel-caption {background-color: rgba(26, 26, 26, .7); left: 0; right: 0; width: 100%;}
+.carousel-caption > h1 {font-family: Raleway, cursive; font-size: 2em;}
+.carousel-caption > h2 {font-size:1.5em;}
+.carousel-control-prev, .carousel-control-next {z-index: 10 !important;}
+
+/* carousel homepage */
+.carousel-home img {height: 100vh;}
+
+/* carousel item */
+.carousel-specific-item {background-color: rgba(26, 26, 26, .3);}
+.carousel-specific-item img {background-color: #483D8B; height: 500px; width: auto !important;}
+
+/* carousel media query */
+@media screen and (max-width: 769px) {
+    .carousel-home .carousel-item > img {height: auto;}
+
+/* logo */
+.logo-width {width: 400px;}
+.navbar-brand {font-family: 'Raleway', cursive;}
+
+
+
+/* dropdown */
+.dropdown .btn {width: 100%;}
+
+h1, h2, h3, h4, h5 {font-family: 'Raleway', sans-serif;
+					font-size: 100%;
+
+
+}
+
+
