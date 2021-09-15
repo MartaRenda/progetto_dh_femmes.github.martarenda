@@ -10,9 +10,9 @@ $enable-responsive-font-sizes
 html {scroll-behavior: smooth; -webkit-font-smoothing: antialiased;}
 
 /*body*/
-body {background-color: #483D8B;
+body {background-color: #ccccff;
 	font-family: Raleway;
-	color: white
+	color: black;
 }
 
 header {
@@ -27,6 +27,11 @@ header {
 			font-family: Raleway, cursive;
 			font-size:1.5em;
 		}
+
+body {background-color: #ccccff;
+	color: white;
+
+}
 
 
 /*footer*/
