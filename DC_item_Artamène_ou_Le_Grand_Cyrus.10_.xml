@@ -2,7 +2,6 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
 <responseDate>2021-09-15T12:49:51Z</responseDate>
 <request>http://catoai.bnf.fr/oai2/OAIHandler</request>
-<error code="badVerb">Illegal verb</error>
 <library xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id= "Gallica.bnf">
 <item n="12148" xml:id="ark:/12148/bpt6k7915d">
 <dc:title>Artamène, ou Le grand Cyrus. 10 / Madeleine de Scudéry</dc:title>
